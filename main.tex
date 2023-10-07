@@ -1,0 +1,198 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Matt Aquino} \\ \vspace{1pt}
+    Toronto, Ontario \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 289-221-9227 ~ \href{mailto:matthew@aquino.lol}{\raisebox{-0.2\height}\faEnvelope\  \underline{matthew@aquino.lol}} ~ 
+    \href{https://www.linkedin.com/in/matthew-aquino-/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/matthew-aquino-/}}  ~
+    \href{https://github.com/MatthewAquino}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/MatthewAquino}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Google }{October 2022 -- Present}
+      {Solutions Consultant}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Drive the successful adoption of Google Cloud, managing implementation efforts, offering technical expertise, and overseeing project timelines, resulting in a 97\% rating in an annual customer satisfaction survey .}
+        \resumeItem{Manage 6 global accounts, achieving 20\% cost savings and scalability improvements through strategic utilization and optimization of Google Cloud Platform.}
+        \resumeItem{Lead the development of customized product roadmaps in collaboration with customers, aligning upcoming initiatives and objectives with their business goals}
+        \resumeItem{Conduct quarterly reviews to address roadblocks, milestones, and ensure ongoing alignment between customer needs and product development priorities.}
+        \resumeItem{Lead customer discovery and research endeavors, organize executive sessions and collaborate closely with key stakeholders to obtain valuable insights from more than 20 industry leaders.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Tanium}{March 20021 -- October 2022}
+      {Associate, Technical Account Manager}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Served as the primary technical point of contact for customers, leading strategic planning, testing, troubleshooting, and technical pre-sales activities.}
+        \resumeItem{Acted as the key technical liaison for customers, gathering and analyzing their feedback and requirements to inform product development and roadmap decisions, resulting in a 20\% increase in customer satisfaction.}
+        \resumeItem{Led cross-functional collaboration among customers, sales, and engineering teams, balancing the diverse needs of each party to achieve project goals efficiently.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {The ITM Group}{June 2020 -- March 2021}
+      {Cloud Architect}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Initiated a cloud-first strategy, leading the successful migration of critical systems and applications to Azure. This effort resulted in enhanced scalability, redundancy, and the achievement of a 99.99\% Uptime SLA.}
+        \resumeItem{Designed and implemented cost-effective cloud infrastructure, aligning it with organizational requirements. This transition from on-premises systems led to annual cost savings of approximately \$65,000.}
+        \resumeItem{ Developed automation workflows in Powershell and Python, reducing the time required to complete common tasks by up to 50\%. }
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {The ITM Group}{January 2020 -- June 2020}
+      {System/Network Administrator}{Toronto, Ontario}
+     
+       \resumeItemListStart
+        \resumeItem{Partnered with systems teams to assist with building, configuring, patching, upgrading and troubleshooting of physical and virtual Windows servers (rack mounts/blades, and VMs).}
+        \resumeItem{Manage the system and networking infrastructure of a data center that hosts 300+ servers and hosts services for 20 companies.}
+        \resumeItem{Act as a level 3 escalation point for complex networking and operating system issues. }
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgian College}{Aug. 2018 -- May 2021}
+      {College Diploma : Computer Systems Technician - Networking}{Barrie, Ontario}
+  \resumeSubHeadingListEnd
+
+%-----------Certifications---------------
+\section{Certifications}
+
+\resumeItemListStart
+        \resumeItem{Google Cloud - Associate Cloud Engineer}
+        \resumeItem{Google Cloud - Professional Workspace Administrator}
+        \resumeItem{Microsoft Azure - Certified Azure Fundamentals}
+        \resumeItem{Amazon Web Services | Certified Cloud Practitioner}
+ \resumeSubHeadingListEnd
+ 
+\end{document}
