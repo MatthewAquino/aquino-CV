@@ -9,4 +9,6 @@ My curriculum vitae (CV) written using LaTeX. In my CV, you may find my contact 
 pdflatex main.tex
 ```
 
+### Preview
 
+![Resume Screenshot](/preview.png)
